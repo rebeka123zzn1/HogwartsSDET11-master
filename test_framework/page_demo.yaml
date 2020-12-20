@@ -1,0 +1,24 @@
+
+
+login:
+  - find: {id: xxx}
+  - click
+  - find: {text: xxx}
+  - send_keys: xxx
+
+forget:
+  - find: {id: xxx}
+  - click
+
+
+search:
+  - id: home_search
+  - click: []
+  - id: search_input_text
+  - send_keys: ${keyword}
+  - id: name
+  - click: []
+
+back:
+  - id: action_close
+  - click: []
